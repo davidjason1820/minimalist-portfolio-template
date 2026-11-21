@@ -1,0 +1,29 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "aliases": {
+    "components": "@/components",
+    "hooks": "@/hooks",
+    "lib": "@/lib",
+    "ui": "@/components/ui",
+    "utils": "@/lib/utils"
+  },
+  "iconLibrary": "lucide",
+  "registries": {
+    "@aceternity": {
+      "headers": {
+        "Authorization": "Bearer aceternity_db46a4d98a8a74a280ecf25a9ad3a25db379efd0debc29355ed1cc1d8fc1e610"
+      },
+      "url": "https://ui.aceternity.com/registry/{name}.json"
+    }
+  },
+  "rsc": true,
+  "style": "new-york",
+  "tailwind": {
+    "baseColor": "neutral",
+    "config": "",
+    "css": "./src/app/globals.css",
+    "cssVariables": true,
+    "prefix": ""
+  },
+  "tsx": true
+}
